@@ -3,10 +3,13 @@ package com.petstore.petstoredata.service.map;
 import com.petstore.petstoredata.model.*;
 import com.petstore.petstoredata.service.*;
 
+import org.springframework.stereotype.Service;
+
 import java.util.Set;
 import java.util.UUID;
 
-public class OwnerServiceMap extends AbstractMapService<Owner, UUID> implements CrudService<Owner, UUID> {
+@Service
+public class OwnerServiceMap extends AbstractMapService<Owner, UUID> implements OwnerService {
 
     @Override
     public Set<Owner> findAll() {
@@ -31,5 +34,11 @@ public class OwnerServiceMap extends AbstractMapService<Owner, UUID> implements 
     @Override
     public void DeleteById(final UUID uuid) {
         super.deleteById(uuid);
+    }
+
+    @Override
+    public Owner FindByName(String lastname) {
+      // TODO Auto-generated method stub
+      return null;
     }
 }
