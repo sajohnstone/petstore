@@ -1,6 +1,6 @@
-package com.petstore.petstoredata.service;
+package com.petstore.app.service;
 
-import com.petstore.petstoredata.model.Vet;
+import com.petstore.app.model.Vet;
 
 import java.util.Set;
 import java.util.UUID;

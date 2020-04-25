@@ -1,10 +1,10 @@
-package com.petstore.petstoreweb;
+package com.petstore.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PetstoreWebApplicationTests {
+class PetstoreDataApplicationTests {
 
 	@Test
 	void contextLoads() {

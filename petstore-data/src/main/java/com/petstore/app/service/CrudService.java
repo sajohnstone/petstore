@@ -1,4 +1,4 @@
-package com.petstore.petstoredata.service;
+package com.petstore.app.service;
 
 import java.util.Set;
 

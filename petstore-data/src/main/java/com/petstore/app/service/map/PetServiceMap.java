@@ -1,13 +1,15 @@
-package com.petstore.petstoredata.service.map;
+package com.petstore.app.service.map;
 
-import com.petstore.petstoredata.model.*;
-import com.petstore.petstoredata.service.*;
+import com.petstore.app.model.*;
+import com.petstore.app.service.*;
 
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 import java.util.UUID;
 
-public class PetServiceMap extends AbstractMapService<Pet, UUID> implements CrudService<Pet, UUID> {
+@Service
+public class PetServiceMap extends AbstractMapService<Pet, UUID> implements PetService {
     @Override
     public Set<Pet> findAll() {
         return super.findAll();

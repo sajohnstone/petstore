@@ -1,4 +1,4 @@
-package com.petstore.petstoredata.model;
+package com.petstore.app.model;
 
 public class PetType extends BaseEntity {
   private String name;

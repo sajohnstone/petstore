@@ -1,4 +1,4 @@
-package com.petstore.petstoredata.service.map;
+package com.petstore.app.service.map;
 
 import java.util.HashMap;
 import java.util.HashSet;

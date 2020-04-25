@@ -1,14 +1,13 @@
-package com.petstore.petstoreweb;
+package com.petstore.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PetstoreWebApplication {
+public class PetstoreDataApplication {
 
 	public static void main(String[] args) {
-    SpringApplication.run(PetstoreWebApplication.class, args);
-    System.out.println("Application started...");
+		SpringApplication.run(PetstoreDataApplication.class, args);
 	}
 
 }

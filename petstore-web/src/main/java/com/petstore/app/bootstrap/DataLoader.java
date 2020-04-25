@@ -1,10 +1,10 @@
-package com.petstore.petstoreweb.bootstrap;
+package com.petstore.app.bootstrap;
 
 import java.util.UUID;
 
-import com.petstore.petstoredata.model.*;
-import com.petstore.petstoredata.service.*;
-import com.petstore.petstoredata.service.map.*;
+import com.petstore.app.model.*;
+import com.petstore.app.service.*;
+import com.petstore.app.service.map.*;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

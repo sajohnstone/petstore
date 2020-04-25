@@ -1,4 +1,4 @@
-package com.petstore.petstoredata.model;
+package com.petstore.app.model;
 
 public class Person extends BaseEntity {
   private String firstName;
